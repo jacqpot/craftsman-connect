@@ -13,7 +13,20 @@ class DeviseCreateUsers < ActiveRecord::Migration[6.1]
 
       ## Rememberable
       t.datetime :remember_created_at
-
+      t.string :name, null: false, default:""
+      t.integer :phone_number
+      t.boolean :private
+      t.string :city
+      t.string :state
+      t.string :Bio
+      t.string :youtube_url
+      t.string :facebook_url
+      t.string :website_url
+      t.string :instagram_url
+      t.string :etsy_url
+      t.string :twitter_url
+      t.string :linkedin_url
+      t.boolean :admin, default: false
       ## Trackable
       # t.integer  :sign_in_count, default: 0, null: false
       # t.datetime :current_sign_in_at
