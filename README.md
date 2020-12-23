@@ -22,9 +22,3 @@ Things you may want to cover:
 - Deployment instructions
 
 - ...
-
-id
-457702140944-pbt776pfai9g8s5l3140ns38qgt4hs8d.apps.googleusercontent.com
-
-secret
-P3uh2bfleKiXUhfnAuK7RCjq
